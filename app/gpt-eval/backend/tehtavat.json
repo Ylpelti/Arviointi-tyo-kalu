@@ -1,0 +1,120 @@
+{
+  "7A": {
+    "nimi": "Väestörakenteen ja kehityserojen analyysi",
+    "ohje": "1) Kuvaile valtioiden A ja B väestöpyramideja.\n\n2) Kerro valtioiden A ja B väestönkehityksen eroista ja arvioi niiden taloudellista tilannetta, yhteiskunnallista rakennetta ja ihmisoikeuksien toteutumista vertaamalla niitä toisiinsa.\n\n3) Molemmilta valtioilta löytyy nykyisiä ja tulevia ongelmia. Minkälaisia ne voisivat olla ja miten ne eroavat toisistaan?\n\n4) Anna molemmista valtioista esimerkki (mikä valtio voisi olla valtio A ja mikä valtio B?).",
+    "max_pisteet": 10,
+
+    "osa_alueet": [
+      {
+        "id": "pyramidi",
+        "nimi": "Väestöpyramidien kuvaus",
+        "max": 2,
+        "kriteerit": [
+          "Kuvaa valtion A väestöpyramidi",
+          "Kuvaa valtion B väestöpyramidi"
+        ]
+      },
+      {
+        "id": "talous_yhteiskunta",
+        "nimi": "Väestönkehitys, talous ja yhteiskunta",
+        "max": 2,
+        "kriteerit": [
+          "Kuvaa ja vertailee valtion A väestönkehitystä",
+          "Kuvaa ja vertailee valtion B väestönkehitystä",
+          "Arvioi valtioiden taloudellisia eroja",
+          "Arvioi valtioiden yhteiskunnallisia eroja"
+        ]
+      },
+      {
+        "id": "ihmisoikeudet",
+        "nimi": "Ihmisoikeuksien toteutuminen",
+        "max": 2,
+        "kriteerit": [
+          "Arvioi valtion A ihmisoikeuskehitystä",
+          "Arvioi valtion B ihmisoikeuskehitystä"
+        ]
+      },
+      {
+        "id": "ongelmat",
+        "nimi": "Nykyiset ja tulevat ongelmat",
+        "max": 3,
+        "kriteerit": [
+          "Kuvaa valtion A nykyiset ja tulevat ongelmat",
+          "Kuvaa valtion B nykyiset ja tulevat ongelmat",
+          "Vertaa valtioiden haasteiden eroja"
+        ]
+      },
+      {
+        "id": "esimerkit",
+        "nimi": "Valtioiden tunnistaminen",
+        "max": 1,
+        "kriteerit": [
+          "Ehdottaa esimerkin valtiota A:lle",
+          "Ehdottaa esimerkin valtiota B:lle"
+        ]
+      }
+    ],
+
+    "materiaali": { 
+      "valtio_A": "Teollisuusmaa",
+      "valtio_B": "Kehittyvämaa"
+    },
+
+    "strictness": "neutral"
+  }, 
+  
+  "7B": {
+    "nimi": "Kaupungistumisen muutos ja syiden arviointi",
+    "ohje": "1) Kuvaile karttojen A ja B perusteella, miten kaupungistuminen ja väestön sijoittuminen kaupunkeihin ovat muuttuneet.\n\n2) Pohdi, mitkä tekijät selittävät kaupunkiväestön kasvun eroja vuosien 1965–1970 ja 2005–2010 välillä.\n\n3) Arvioi, miten kaupungistuminen on muuttanut kaupunkitilaa erityisesti länsimaissa (esim. kaupunkirakenne, liikkuminen, asuminen, palvelut).\n\n4) Tee johtopäätökset siitä, miksi kaupungistumisen kasvu joillakin alueilla on hidastunut.",
+    "max_pisteet": 10,
+
+    "osa_alueet": [
+      {
+        "id": "muutos",
+        "nimi": "Kaupungistumisen muutoksen kuvaus",
+        "max": 3,
+        "kriteerit": [
+          "Kuvaa kartan A (1965–1970) kaupungistumisen alueelliset piirteet",
+          "Kuvaa kartan B (2005–2010) kaupungistumisen alueelliset piirteet",
+          "Kuvaa keskeiset erot aikakausien välillä"
+        ]
+      },
+      {
+        "id": "syyt",
+        "nimi": "Kaupungistumisen syiden arviointi",
+        "max": 3,
+        "kriteerit": [
+          "Selittää kehitysmaiden nopean kaupungistumisen syitä 1960–1970-luvuilla",
+          "Arvioi syitä kaupungistumisen hidastumiseen 2000-luvulle tultaessa",
+          "Vertaa eri alueiden väestönkehitystä ja muuttoliikettä"
+        ]
+      },
+      {
+        "id": "kaupunkitila",
+        "nimi": "Kaupunkitilan muutokset länsimaissa",
+        "max": 3,
+        "kriteerit": [
+          "Kuvaa länsimaiden kaupunkirakenteen muutoksia",
+          "Arvioi kaupungistumisen vaikutuksia liikkumiseen, asumiseen ja palveluihin",
+          "Selittää, miten talous ja elintaso ovat vaikuttaneet kaupunkitilan kehitykseen"
+        ]
+      },
+      {
+        "id": "johtopaatokset",
+        "nimi": "Johtopäätökset ja kokonaisuuden ymmärrys",
+        "max": 1,
+        "kriteerit": [
+          "Antaa perustellun kokonaisarvion siitä, miksi kaupungistuminen hidastuu joillakin alueilla"
+        ]
+      }
+    ],
+
+    "materiaali": {
+      "A": "Kaupunkiväestön kasvu 1965–1970 ja suurimmat kaupungit 1970",
+      "B": "Kaupunkiväestön kasvu 2005–2010 ja suurimmat kaupungit 2010"
+    },
+
+    "strictness": "strict"
+  }
+  }
+

@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "GPT Arviointi",
+  "description": "Arvioi opiskelijoiden vastaukset GPT:n avulla suoraan selaimessa.",
+  "version": "1.0.0",
+
+  "permissions": ["storage"],
+  "host_permissions": ["http://localhost:8000/*"],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Avaa GPT-arviointi"
+  }
+}

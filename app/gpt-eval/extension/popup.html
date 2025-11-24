@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>GPT Arviointi</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div id="gpt-eval-popup" class="gpt-eval">
+      <h2 class="gpt-eval__title">GPT-arviointi</h2>
+
+      <div class="gpt-eval__row">
+        <label for="task-select">Tehtävä</label>
+        <select id="task-select">
+          <option value="" disabled selected hidden>Valitse...</option>
+        </select>
+      </div>
+
+      <div class="gpt-eval__row">
+        <label for="student-answer">Oppilaan vastaus</label>
+        <textarea
+          id="student-answer"
+          rows="6"
+          placeholder="Liitä vastaus tähän"
+        ></textarea>
+      </div>
+
+      <div class="gpt-eval__actions">
+        <button id="evaluate-btn" type="button">Arvioi</button>
+        <button id="copy-btn" type="button">Kopioi</button>
+      </div>
+
+      <pre id="result" class="gpt-eval__result">
+Valitse tehtävä ja arvioi vastaus.
+      </pre>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
